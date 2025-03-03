@@ -1,0 +1,61 @@
+.jumbotron {
+    padding-top: 6rem;
+    background-color: #375a7f;
+}
+
+.profile {
+    padding-top: 6rem;
+}
+
+#projects {
+    background-color: #e2edff;
+}
+
+section {
+    padding-top: 2rem;
+}
+
+footer {
+    border: none;
+}
+
+.hover-effect:hover {
+    color: #ffcc00; /* Change text color on hover */
+}
+
+.hover-effect .rounded-circle:hover {
+    background-color: #ffcc00; /* Change background color of circle on hover */
+    transform: scale(1.1); /* Slightly enlarge the circle */
+    transition: all 0.3s ease-in-out; /* Smooth transition effect */
+}
+
+.hover-effect i:hover {
+    color: #222222; /* Change icon color on hover */
+}
+
+.flex-row-equal {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-row-equal > .col-md-4 {
+    display: flex;
+    /* flex: 1; */
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+@media (max-width: 768px) {
+    .about h3 {
+        font-size: 1.2rem; /* Sesuaikan ukuran sesuai kebutuhan */
+    }
+
+    .about .rounded-circle {
+        width: 100px; /* Sesuaikan ukuran sesuai kebutuhan */
+        height: 100px; /* Sesuaikan ukuran sesuai kebutuhan */
+    }
+}
